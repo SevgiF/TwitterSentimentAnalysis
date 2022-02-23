@@ -1,0 +1,13 @@
+body{
+    width: 600px;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    background-image: url('twitter-birds.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.button{
+    padding-top: 60px;
+}

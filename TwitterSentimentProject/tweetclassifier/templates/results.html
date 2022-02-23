@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tweet Classification</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style2.css')}}">
+</head>
+<body1>
+
+<h3>Your tweet review:</h3>
+<div>{{ content }}</div>
+<h3>Prediction:</h3>
+<div>This tweet review is <strong>{{ prediction }}</strong>(probability: {{ probability}}%).</div>
+<div id='button'>
+    <form action="/">
+        <input type=submit value=’Submit another review’>
+    </form>
+</div>
+
+</body1>
+</html>

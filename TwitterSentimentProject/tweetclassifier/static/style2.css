@@ -1,0 +1,13 @@
+body{
+    width: 600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #49c8d1;
+    background-image: url("sentiment.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.button{
+    padding-top: 60px;
+}
